@@ -49,4 +49,4 @@ function interestCalculator(myArray){
     return interestData;          
 }
 
-interestCalculator(data)
+interestCalculator(data);
