@@ -14,6 +14,10 @@ function divisibleNumber (int){
                 result = "yu-gi";
                 numbers.push(result);
             }
+            else if(i % 3 === 0 && i %5 === 0){
+                result = "gi-oh";
+                numbers.push(result);
+            }
             else if (i % 2 === 0 && i %5=== 0){
                 result = "yu-oh";
                 numbers.push(result);
